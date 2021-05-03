@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		113827CD26409F9500050681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113827CC26409F9500050681 /* AppDelegate.swift */; };
-		113827D126409F9500050681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113827D026409F9500050681 /* ViewController.swift */; };
+		113827D126409F9500050681 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113827D026409F9500050681 /* ContainerViewController.swift */; };
 		113827D626409F9600050681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113827D526409F9600050681 /* Assets.xcassets */; };
 		113827D926409F9600050681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113827D726409F9600050681 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		113827C926409F9500050681 /* NoStoryBoardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStoryBoardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113827C926409F9500050681 /* SlideMenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		113827CC26409F9500050681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		113827D026409F9500050681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		113827D026409F9500050681 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		113827D526409F9600050681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113827D826409F9600050681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		113827DA26409F9600050681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		113827C026409F9500050681 = {
 			isa = PBXGroup;
 			children = (
-				113827CB26409F9500050681 /* NoStoryBoardApp */,
+				113827CB26409F9500050681 /* SlideMenuApp */,
 				113827CA26409F9500050681 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +44,29 @@
 		113827CA26409F9500050681 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				113827C926409F9500050681 /* NoStoryBoardApp.app */,
+				113827C926409F9500050681 /* SlideMenuApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		113827CB26409F9500050681 /* NoStoryBoardApp */ = {
+		113827CB26409F9500050681 /* SlideMenuApp */ = {
 			isa = PBXGroup;
 			children = (
 				113827CC26409F9500050681 /* AppDelegate.swift */,
-				113827D026409F9500050681 /* ViewController.swift */,
+				113827D026409F9500050681 /* ContainerViewController.swift */,
 				113827D526409F9600050681 /* Assets.xcassets */,
 				113827D726409F9600050681 /* LaunchScreen.storyboard */,
 				113827DA26409F9600050681 /* Info.plist */,
 			);
-			path = NoStoryBoardApp;
+			path = SlideMenuApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		113827C826409F9500050681 /* NoStoryBoardApp */ = {
+		113827C826409F9500050681 /* SlideMenuApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 113827DD26409F9600050681 /* Build configuration list for PBXNativeTarget "NoStoryBoardApp" */;
+			buildConfigurationList = 113827DD26409F9600050681 /* Build configuration list for PBXNativeTarget "SlideMenuApp" */;
 			buildPhases = (
 				113827C526409F9500050681 /* Sources */,
 				113827C626409F9500050681 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = NoStoryBoardApp;
+			name = SlideMenuApp;
 			productName = NoStoryBoardApp;
-			productReference = 113827C926409F9500050681 /* NoStoryBoardApp.app */;
+			productReference = 113827C926409F9500050681 /* SlideMenuApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 113827C426409F9500050681 /* Build configuration list for PBXProject "NoStoryBoardApp" */;
+			buildConfigurationList = 113827C426409F9500050681 /* Build configuration list for PBXProject "SlideMenuApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				113827C826409F9500050681 /* NoStoryBoardApp */,
+				113827C826409F9500050681 /* SlideMenuApp */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113827D126409F9500050681 /* ViewController.swift in Sources */,
+				113827D126409F9500050681 /* ContainerViewController.swift in Sources */,
 				113827CD26409F9500050681 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,12 +272,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LA3HM9Z55Z;
-				INFOPLIST_FILE = NoStoryBoardApp/Info.plist;
+				INFOPLIST_FILE = SlideMenuApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.borisSobolev.NoStoryBoardApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.borisSobolev.SlideMenuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,12 +291,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LA3HM9Z55Z;
-				INFOPLIST_FILE = NoStoryBoardApp/Info.plist;
+				INFOPLIST_FILE = SlideMenuApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.borisSobolev.NoStoryBoardApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.borisSobolev.SlideMenuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		113827C426409F9500050681 /* Build configuration list for PBXProject "NoStoryBoardApp" */ = {
+		113827C426409F9500050681 /* Build configuration list for PBXProject "SlideMenuApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				113827DB26409F9600050681 /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		113827DD26409F9600050681 /* Build configuration list for PBXNativeTarget "NoStoryBoardApp" */ = {
+		113827DD26409F9600050681 /* Build configuration list for PBXNativeTarget "SlideMenuApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				113827DE26409F9600050681 /* Debug */,
