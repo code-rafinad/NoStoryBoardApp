@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .white
         title = "Home"
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "bookmark.fill"), style: .done, target: self, action: #selector(barButtonTapped))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "filemenu.and.selection"), style: .done, target: self, action: #selector(barButtonTapped))
         navigationItem.leftBarButtonItem?.tintColor = .darkGray
     }
 
