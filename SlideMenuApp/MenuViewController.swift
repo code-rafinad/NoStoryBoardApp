@@ -13,8 +13,7 @@ class MenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        print("Hello")
+        view.backgroundColor = .darkGray
     }
 
 
